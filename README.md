@@ -20,6 +20,21 @@ Note: Relay and relay setup is only displayed partially. I've used an external 1
 
 ![Basic schematic of testsetup](assets/arduino_radiator_fritz_bb.png)
 
+## Features
+
+* Toggles powersource depending on current temperature
+* Adjustment of parameters during runtime
+* Persistance that will survive power outages / power cycle
+* Current measurement and status shown on LCD
+* Input via 4 dedicated buttons for easy use
+
+## Menu
+
+* current Temp / humidity readings
+* Current mode
+* start temperature
+* temperature differential (starttemp - differential = power off temp)
+* Mode: on, off, auto
 
 ## About
 This software, combined with the hardware is able to boost your heating produced by a radiator (of any kind) allowing for a greater heat exchange thus better living quality. In conjunction with hardware this software will trigger fans of some sort to increase airflow during a heating period by detecting a certain temperature threshold.
